@@ -1,0 +1,141 @@
+/* Reset default margin and set background color */
+body {
+  margin: 0;
+  background-color: #c1e0dc;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER IMAGE */
+header {
+  position: relative;
+  text-align: center;
+}
+
+/* Header image full width */
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Overlay text */
+.site-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  margin: 0;
+}
+/* Navigation Bar */
+nav {
+  background-color: #dfece8;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+/* Main article section */
+article {
+  padding: 20px;
+  overflow: hidden; /* clears float */
+}
+
+/* Article image floats left with margin */
+.article-image {
+  float: left;
+  width: 300px;
+  margin: 0 20px 10px 0;
+}
+
+/* Optional: Paragraph spacing */
+article p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* Facts Section */
+.facts {
+  padding: 20px;
+}
+
+.facts h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.facts ul {
+  padding-left: 20px;
+  line-height: 1.5;
+}
+/* Contact Section */
+.contact {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.contact h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  padding: 8px;
+  border: 1px solid #aaa;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.contact button {
+  align-self: flex-start;
+  padding: 6px 12px;
+  background-color: #e0e0e0;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #d0d0d0;
+}
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
