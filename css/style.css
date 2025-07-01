@@ -4,35 +4,36 @@ body {
   background-color: #e0f7f7;
 }
 
-header {
-  text-align: center;
+h1 {
+  margin: 0;
 }
 
-.header-img {
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-h1 {
-  margin: 0;
-  padding: 15px 0;
-}
-
 nav ul {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #000;
   font-weight: bold;
 }
 
@@ -40,11 +41,7 @@ main {
   padding: 20px;
 }
 
-#home h2 {
-  margin-top: 0;
-}
-
-.story-img {
+.story img {
   float: left;
   margin-right: 20px;
   width: 300px;
@@ -53,6 +50,16 @@ main {
 
 .story p {
   overflow: hidden;
+}
+
+.facts {
+  clear: both;
+  margin-top: 40px;
+}
+
+.facts ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .contact {
@@ -66,23 +73,24 @@ main {
 }
 
 .contact form input,
-.contact form textarea {
+.contact form textarea,
+.contact form button {
   display: block;
   width: 100%;
   max-width: 400px;
-  padding: 8px;
   margin-bottom: 10px;
+  padding: 8px;
   font-size: 16px;
+}
+
+.contact form textarea {
+  resize: none;
 }
 
 .contact form button {
   background-color: #007BFF;
   color: white;
-  padding: 12px;
   border: none;
-  width: 100%;
-  max-width: 400px;
-  font-size: 18px;
   cursor: pointer;
 }
 
@@ -91,7 +99,7 @@ main {
 }
 
 footer {
-  text-align: left;
-  padding: 10px 20px;
-  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
